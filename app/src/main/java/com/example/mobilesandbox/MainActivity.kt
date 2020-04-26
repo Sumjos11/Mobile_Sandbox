@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        Toast.makeText(context: this, "Hello from Android!", Toast.LENGTH_LONG).show()
+        Toast.makeText( context: this, text: "Hello from Android!", Toast.LENGTH_LONG).show()
 
     }
 }
